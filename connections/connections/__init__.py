@@ -9,7 +9,7 @@ from acapy_agent.core.profile import Profile
 from acapy_agent.core.protocol_registry import ProtocolRegistry
 
 from connections.v1_0.manager import ConnectionManager
-from connections.v1_0.message_tpyes import MESSAGE_TYPES
+from connections.v1_0.message_types import MESSAGE_TYPES
 
 LOGGER = logging.getLogger(__name__)
 
