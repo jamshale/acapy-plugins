@@ -475,7 +475,7 @@ async def connections_list(request: web.BaseRequest):
     if request.query.get("connection_protocol"):
         post_filter["connection_protocol"] = request.query["connection_protocol"]
 
-    limit, offset = get_paginated_query_params(request)
+    limit, offset, *_ = get_paginated_query_params(request)
 
     profile = context.profile
     try:
