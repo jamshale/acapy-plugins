@@ -9,7 +9,7 @@ python = "^3.13"
 
 # Define ACA-Py as an optional/extra dependency so it can be
 # explicitly installed with the plugin if desired.
-acapy-agent = { version = "~1.5.1", optional = true }
+acapy-agent = { git = "https://github.com/jamshale/acapy.git", branch = "feat/4079-anoncred-upgrade-issue", optional = true }
 
 marshmallow = "^3.23.3"
 google-auth = "^2.48.0"

@@ -6,7 +6,7 @@ authors = ["Colton Wolkins <colton@indicio.tech>", "Kim Ebert <kim@indicio.tech>
 
 [tool.poetry.dependencies]
 python = "^3.13"
-acapy-agent = { version = "~1.5.1", optional = true }
+acapy-agent = { git = "https://github.com/jamshale/acapy.git", branch = "feat/4079-anoncred-upgrade-issue", optional = true }
 redis = "^4.3.0"
 
 # Define ACA-Py as an optional/extra dependency so it can be
